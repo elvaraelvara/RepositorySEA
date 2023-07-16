@@ -75,45 +75,5 @@ export default {
 };
 </script>
 
-        <input type="text" id="name" v-model="name" required>
-        <label for="age">Age:</label>
-        <input type="number" id="age" v-model="age" min="1" required>
-        <button type="submit">Book</button>
-      </form>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'TicketBooking',
-    data() {
-      return {
-        movie: {},
-        availableSeats: 64,
-        seatNumber: null,
-        name: '',
-        age: null
-      }
-    },
-    created() {
-      this.fetchMovie()
-    },
-    methods: {
-      fetchMovie() {
-        const movieId = this.$route.params.id
-      
-        axios.get(`https://seleksi-sea-2023.vercel.app/api/movies/${movieId}`)
-          .then(response => {
-            this.movie = response.data
-          })
-          .catch(error => {
-            console.log(error)
-          })
-      },
-      bookTicket() {
-        // Logic to book the ticket and update availableSeats
-      }
-    }
-  }
-  </script>
+        
   
