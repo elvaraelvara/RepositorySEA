@@ -64,7 +64,7 @@ __Penjelasan Tambahan__
 
 File auth.js berisi fungsi-fungsi untuk melakukan registrasi, login, logout, dan mendapatkan status autentikasi menggunakan Firebase.
 
-File main.js berfungsi sebagai entry point aplikasi Vue, mengkonfigurasi Firebase, dan memuat dan menjalankan aplikasi Vue dengan menggunakan router dan komponen App.
+File main.js berfungsi sebagai entry point aplikasi Vue, mengkonfigurasi Firebase, dan memuat dan menjalankan aplikasi Vue dengan menggunakan router dan komponen App. (saya menggunakan firebase sebagai database)
 ## Project setup
 ```
 npm install
