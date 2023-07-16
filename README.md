@@ -69,7 +69,14 @@ File main.js berfungsi sebagai entry point aplikasi Vue, mengkonfigurasi Firebas
 ```
 npm install
 ```
-
+### Firebase
+```
+npm install firebase
+```
+### Axios
+```
+npm install axios
+```
 ### Compiles and hot-reloads for development
 ```
 npm run serve
